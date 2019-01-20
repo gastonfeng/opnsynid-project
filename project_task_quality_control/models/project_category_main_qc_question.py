@@ -11,7 +11,7 @@ class ProjectCategoryMainQcQuestion(models.Model):
 
     task_category_id = fields.Many2one(
         string="Project Task Category",
-        comodel_name="project.category.main",
+        comodel_name="project.category",
         required=True,
         ondelete="cascade",
     )

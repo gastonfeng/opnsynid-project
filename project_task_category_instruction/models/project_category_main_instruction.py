@@ -11,7 +11,7 @@ class ProjectCategoryMainInstruction(models.Model):
 
     categ_id = fields.Many2one(
         string="Task Category",
-        comodel_name="project.category.main",
+        comodel_name="project.category",
         required=True,
     )
     name = fields.Char(

@@ -3,8 +3,8 @@
 <data>
 
 <record id="project_category_main_view_form" model="ir.ui.view">
-    <field name="name">project.category.main form</field>
-    <field name="model">project.category.main</field>
+    <field name="name">project.category form</field>
+    <field name="model">project.category</field>
     <field name="inherit_id" ref="project_task_category_view.project_category_main_view_form"/>
     <field name="arch" type="xml">
         <data>

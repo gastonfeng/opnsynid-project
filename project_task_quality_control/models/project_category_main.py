@@ -6,7 +6,7 @@ from openerp import models, fields, api
 
 
 class ProjectCategoryMain(models.Model):
-    _inherit = "project.category.main"
+    _inherit = "project.category"
 
     qc_question_ids = fields.One2many(
         string="Questions",

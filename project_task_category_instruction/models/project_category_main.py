@@ -6,7 +6,7 @@ from openerp import models, fields
 
 
 class ProjectCategoryMain(models.Model):
-    _inherit = "project.category.main"
+    _inherit = "project.category"
 
     instruction_ids = fields.One2many(
         string="Instruction",

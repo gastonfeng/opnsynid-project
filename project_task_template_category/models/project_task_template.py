@@ -10,7 +10,7 @@ class ProjectTaskTemplate(models.Model):
 
     categ_id = fields.Many2one(
         string="Category",
-        comodel_name="project.category.main",
+        comodel_name="project.category",
     )
 
     @api.multi
