@@ -50,7 +50,7 @@
 <menuitem
     id="project_reference_document_type_menu"
     name="Reference Document Type"
-    parent="base.menu_definitions"
+    parent="project.menu_main_pm"
     action="project_reference_document_type_action"
     sequence="1"/>
 

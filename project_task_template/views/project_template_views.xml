@@ -120,7 +120,7 @@
 <menuitem
     id="project_template_menu"
     name="Project Template"
-    parent="base.menu_definitions"
+    parent="project.menu_main_pm"
     action="project_template_action"
     sequence="1"/>
 

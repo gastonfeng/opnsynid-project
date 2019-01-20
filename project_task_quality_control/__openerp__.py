@@ -14,7 +14,6 @@
         "project_stage_state",
         "project_task_category_view",
         "base_action_rule",
-        "base_ir_filters_active",
     ],
     "data": [
         "security/ir.model.access.csv",

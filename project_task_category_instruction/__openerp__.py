@@ -12,7 +12,6 @@
     "installable": True,
     "depends": [
         "project_task_category_view",
-        "web_widget_url_listview",
     ],
     "data": [
         "security/ir.model.access.csv",
