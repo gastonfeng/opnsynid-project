@@ -4,7 +4,7 @@
 # pylint: disable=locally-disabled, manifest-required-author
 {
     "name": "Project Team Member Responsibility",
-    "version": "8.0.1.0.0",
+    "version": "1.0",
     "website": "https://opensynergy-indonesia.com",
     "author": "OpenSynergy Indonesia",
     "category": "Project Management",
@@ -12,7 +12,6 @@
     "installable": True,
     "auto_install": True,
     "depends": [
-        "analytic_user_function",
         "project",
     ],
     "data": [
