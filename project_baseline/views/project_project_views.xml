@@ -49,7 +49,7 @@
     <field name="inherit_id" ref="project.view_project"/>
     <field name="arch" type="xml">
         <data>
-            <xpath expr="//field[@name='planned_hours']" position="before">
+            <xpath expr="//field[@name='sequence']" position="before">
                 <field name="baseline_start"/>
                 <field name="baseline_finish"/>
             </xpath>
@@ -60,10 +60,10 @@
 <record id="project_project_view_gantt" model="ir.ui.view">
     <field name="name">project.project gantt</field>
     <field name="model">project.project</field>
-    <field name="inherit_id" ref="project.view_project_project_gantt"/>
+    <field name="inherit_id" ref="project_gantt8.view_project_project_gantt"/>
     <field name="arch" type="xml">
         <data>
-            <xpath expr="//gantt" position="attributes">
+            <xpath expr="//gantt8" position="attributes">
                 <attribute name="date_start">baseline_start</attribute>
                 <attribute name="date_stop">baseline_finish</attribute>
             </xpath>

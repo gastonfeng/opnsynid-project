@@ -18,40 +18,19 @@ class ProjectTemplate(models.Model):
             ("followers", _("Private project: followers Only")),
         ]
 
-    name = fields.Char(
-        string="Template Name",
-        required=True,
-    )
-    project_parent_id = fields.Many2one(
-        string="Parent Project",
-        comodel_name="account.analytic.account",
-        required=True,
-    )
-    active = fields.Boolean(
-        string="Active",
-        required=True,
-        default=True,
-    )
-    task_type_ids = fields.Many2many(
-        string="Task Stages",
-        comodel_name="project.task.type",
-        relation="rel_project_template_2_task_type",
-        column1="project_id",
-        column2="stage_id",
-    )
-    privacy_visibility = fields.Selection(
-        string="Privacy Visibility",
-        selection=lambda self: self._privacy_visibility_selection_selection(),
-        required=True,
-    )
-    task_template_ids = fields.One2many(
-        string="Task Templates",
-        comodel_name="project.task_template",
-        inverse_name="project_template_id",
-    )
-    note = fields.Text(
-        string="Note",
-    )
+    name = fields.Char(string="Template Name", required=True, )
+    project_parent_id = fields.Many2one(string="Parent Project", comodel_name="account.analytic.account",
+                                        required=True, )
+    active = fields.Boolean(string="Active", required=True, default=True, )
+    task_type_ids = fields.Many2many(string="Task Stages", comodel_name="project.task.type",
+                                     relation="rel_project_template_2_task_type", column1="project_id",
+                                     column2="stage_id", )
+    privacy_visibility = fields.Selection(string="Privacy Visibility",
+                                          selection=lambda self: self._privacy_visibility_selection_selection(),
+                                          required=True, )
+    task_template_ids = fields.One2many(string="Task Templates", comodel_name="project.task_template",
+                                        inverse_name="project_template_id", )
+    note = fields.Text(string="Note", )
 
     @api.multi
     def create_project(self):
