@@ -1,0 +1,154 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_baseline
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 04:55+0000\n"
+"PO-Revision-Date: 2019-02-09 13:06+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_baseline_finish
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_baseline_finish
+#: model:ir.ui.view,arch_db:project_baseline.project_project_view_form
+#: model:ir.ui.view,arch_db:project_baseline.project_task_view_form
+msgid "Baseline Finish"
+msgstr "基线完成时间"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_finish_offset
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_finish_offset
+msgid "Baseline Finish Offset"
+msgstr "基线完成偏移时间"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_baseline_start
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_baseline_start
+#: model:ir.ui.view,arch_db:project_baseline.project_project_view_form
+#: model:ir.ui.view,arch_db:project_baseline.project_task_view_form
+msgid "Baseline Start"
+msgstr "基线开始时间"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_start_offset
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_start_offset
+msgid "Baseline Start Offset"
+msgstr "基线开始偏移时间"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_finish_offset_uom_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_finish_offset_uom_id
+msgid "Finish Offset UoM"
+msgstr "完成偏移时间单位"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_finish_schedule_base_on
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_finish_schedule_base_on
+msgid "Finish Schedule Based On"
+msgstr "计划完成基于"
+
+#. module: project_baseline
+#: selection:project.project,finish_schedule_base_on:0
+#: selection:project.project,start_schedule_base_on:0
+#: selection:project.task,finish_schedule_base_on:0
+#: selection:project.task,start_schedule_base_on:0
+msgid "Manual"
+msgstr "手动"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_manual_baseline_finish
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_manual_baseline_finish
+msgid "Manual Baseline Finish"
+msgstr "手动基线完成时间"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_manual_baseline_start
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_manual_baseline_start
+msgid "Manual Baseline Start"
+msgstr "手动基线开始时间"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_baseline_finish_project_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_baseline_start_project_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_baseline_finish_project_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_baseline_start_project_id
+msgid "Project Based Schedule"
+msgstr "依赖项目"
+
+#. module: project_baseline
+#: selection:project.project,finish_schedule_base_on:0
+#: selection:project.project,start_schedule_base_on:0
+#: selection:project.task,finish_schedule_base_on:0
+#: selection:project.task,start_schedule_base_on:0
+msgid "Project Baseline Finish"
+msgstr "项目完成时间基线"
+
+#. module: project_baseline
+#: selection:project.project,finish_schedule_base_on:0
+#: selection:project.project,start_schedule_base_on:0
+#: selection:project.task,finish_schedule_base_on:0
+#: selection:project.task,start_schedule_base_on:0
+msgid "Project Baseline Start"
+msgstr "项目开始时间基线"
+
+#. module: project_baseline
+#: model:ir.model,name:project_baseline.model_project_project
+msgid "Project Manual"
+msgstr "项目手动"
+
+#. module: project_baseline
+#: model:ir.ui.view,arch_db:project_baseline.project_project_view_form
+#: model:ir.ui.view,arch_db:project_baseline.project_task_view_form
+msgid "Schedule"
+msgstr "排程"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_start_offset_uom_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_start_offset_uom_id
+msgid "Start Offset UoM"
+msgstr "开始偏移时间单位"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_start_schedule_base_on
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_start_schedule_base_on
+msgid "Start Schedule Based On"
+msgstr "计划开始时间基于"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_baseline_finish_task_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_baseline_start_task_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_baseline_finish_task_id
+#: model:ir.model.fields,field_description:project_baseline.field_project_task_baseline_start_task_id
+msgid "Task Based Schedule"
+msgstr "排程基于任务"
+
+#. module: project_baseline
+#: selection:project.project,finish_schedule_base_on:0
+#: selection:project.project,start_schedule_base_on:0
+#: selection:project.task,finish_schedule_base_on:0
+#: selection:project.task,start_schedule_base_on:0
+msgid "Task Baseline Finish"
+msgstr "基线结束任务"
+
+#. module: project_baseline
+#: selection:project.project,finish_schedule_base_on:0
+#: selection:project.project,start_schedule_base_on:0
+#: selection:project.task,finish_schedule_base_on:0
+#: selection:project.task,start_schedule_base_on:0
+msgid "Task Baseline Start"
+msgstr "基线开始任务Task Baseline Start"
+
+#. module: project_baseline
+#: model:ir.model.fields,field_description:project_baseline.field_project_project_project_timezone
+msgid "Timezone"
+msgstr "时区"
