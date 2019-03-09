@@ -2,11 +2,13 @@
 # Copyright 2018 OpenSynergy Indonesia
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
+import logging
 from datetime import datetime
+
 from openerp import api, models, fields
 from openerp.addons.base.res.res_partner import _tz_get
 from pytz import timezone
-import logging
+
 _logger = logging.getLogger(__name__)
 
 try:
