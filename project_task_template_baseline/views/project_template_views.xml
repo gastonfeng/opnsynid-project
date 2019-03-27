@@ -16,7 +16,7 @@
                             <label for="start_offset" attrs="{'invisible':['|',('start_schedule_base_on', '=', 'manual'),('start_schedule_base_on', '=', False)]}"/>
                             <div attrs="{'invisible':['|',('start_schedule_base_on', '=', 'manual'),('start_schedule_base_on', '=', False)]}">
                                 <field name="start_offset" class="oe_inline"/>
-                                <field name="start_offset_uom_id" class="oe_line" domain="[('category_id','=',%(product.uom_categ_wtime)d)]"/>
+                                <field name="start_offset_uom_id" class="oe_line"/>
                             </div>
                         </group>
                         <group name="schedule_1_2" colspan="1" col="2" string="Baseline Finish">
@@ -25,7 +25,7 @@
                             <label for="finish_offset" attrs="{'invisible':['|', ('finish_schedule_base_on', '=', 'manual'),('finish_schedule_base_on', '=', False)]}"/>
                             <div attrs="{'invisible':['|', ('finish_schedule_base_on', '=', 'manual'),('finish_schedule_base_on', '=', False)]}">
                                 <field name="finish_offset" class="oe_inline"/>
-                                <field name="finish_offset_uom_id" class="oe_line" domain="[('category_id','=',%(product.uom_categ_wtime)d)]"/>
+                                <field name="finish_offset_uom_id" class="oe_line"/>
                             </div>
                         </group>
                     </group>
