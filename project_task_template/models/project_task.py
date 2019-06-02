@@ -11,7 +11,6 @@ class ProjectTask(models.Model):
     task_template_id = fields.Many2one(
         string="Template",
         comodel_name="project.task_template",
-        domain="[('project_template_id','=',project_template_id),('id','!=',id)]"
     )
 
     @api.multi

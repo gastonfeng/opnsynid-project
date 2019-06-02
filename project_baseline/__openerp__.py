@@ -11,7 +11,7 @@
     "license": "AGPL-3",
     "installable": True,
     "depends": [
-        "project"
+        "project","project_gantt8"
     ],
     "external_dependencies": {
         "python": [
